@@ -8,7 +8,8 @@
 [//]: # ( ns__start_section intro )
 
 [//]: # ( ns__custom_start description )
-geenee-check
+
+![geenee-check](src/custom/images/geenee-check.jpg)
 ======
 makes sure that a project&#x27;s updates were done safely for regeneration using geenee
 
@@ -18,7 +19,9 @@ makes sure that a project&#x27;s updates were done safely for regeneration using
 
 [//]: # ( ns__custom_end afterDescription )
 
-[//]: # ( ns__custom_start badges )utilitiespackageName
+[//]: # ( ns__custom_start badges )
+
+This probably won't be added directly into your project.  You are more likely to use it in geenee or some other CLI.
 
 [//]: # ( ns__start_section usageSection )
 
@@ -31,17 +34,11 @@ makes sure that a project&#x27;s updates were done safely for regeneration using
 [//]: # ( ns__end_section intro )
 
 
-[//]: # ( ns__start_section api )
+[//]: # ( ns__start_replacement api )
 
 # API
-
-## General Constants and Commands
-
+This package provides a single function that checks whether a given codebase is written in accordance with the safe coding rules for geenee.
 
 
-## Types
-The following interfaces are exposed by geenee-check.
-
-
-[//]: # ( ns__end_section api )
+[//]: # ( ns__end_replacement api )
 
