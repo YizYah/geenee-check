@@ -1,0 +1,20 @@
+{
+  "addedCode": {
+    "standard": {
+      "README.md": {
+        "path": "README.md",
+        "beginning": "\n",
+        "description": "\ngeenee-check\n======\nmakes sure that a project&#x27;s updates were done safely for regeneration using geenee\n",
+        "afterDescription": "\n",
+        "badges": "utilitiespackageName\n\n[//]: # ( ns__start_section usageSection )\n\n[![Version](https://img.shields.io/npm/v/geenee-check.svg)](https://npmjs.org/package/geenee-check)\n[![Downloads/week](https://img.shields.io/npm/dw/geenee-check.svg)](https://npmjs.org/package/geenee-check)\n[![License](https://img.shields.io/npm/l/geenee-check.svg)](https://github.com/YizYah/geenee-check/blob/master/package.json)\n"
+      },
+      "src/index.ts": {
+        "path": "lib/index.js",
+        "beginning": "\nimport {failsTests} from \"./custom/failsTests\";\n",
+        "export": "\nmodule.exports = failsTests\n"
+      }
+    }
+  },
+  "replacedCode": {},
+  "removedCode": {}
+}

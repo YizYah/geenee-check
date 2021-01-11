@@ -1,0 +1,17 @@
+userClass: user
+codeName: MyApp
+template:
+  dir: /home/yisroel/packages/packrat-ts-all/packrat
+  name: null
+  version: 1
+starter: /home/yisroel/packages/geenee-check-all/geenee-check.starter
+general:
+  packageName: geenee-check
+  author: YizYah
+  owner: YizYah
+  description: >-
+    makes sure that a project's updates were done safely for regeneration using
+    geenee
+  repositoryName: geenee-check
+  license: MIT
+  multi: false

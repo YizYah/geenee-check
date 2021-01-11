@@ -1,0 +1,34 @@
+{
+  "name": "{{general.packageName}}",
+  "description": "{{general.description}}",
+  "author": "{{general.author}}",
+  "bugs": "https://github.com/{{general.owner}}/{{general.repositoryName}}/issues",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json"
+  ],
+  "homepage": "https://github.com/{{general.owner}}/{{general.repositoryName}}",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "{{general.license}}",
+  "main": "lib/index.ts",
+  "types": "lib/index.d.ts",
+  "repository": "{{general.owner}}/{{general.repositoryName}}",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint \"src/**/*.ts\"",
+    "lintfix": "eslint \"src/**/*.ts\" --fix",
+    "test": "eslint \"src/**/*.ts\"",
+    "posttest": "eslint \"src/**/*.ts\"",
+    "prepack": "rm -rf lib && tsc -b",
+    "test": "eslint \"src/**/*.ts\"",
+    "testreal": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\""
+  },
+  "types": "lib/index.d.ts"
+}
