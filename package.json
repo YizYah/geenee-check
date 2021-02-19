@@ -25,7 +25,7 @@
     "execa": "^5.0.0",
     "fs-extra": "^9.0.1",
     "geenee-spell": "0.0.3",
-    "magicalstrings": "0.0.10",
+    "magicalstrings": "0.0.14",
     "path": "^0.12.7",
     "read-pkg": "^5.2.0",
     "tslib": "^2.0.3",
