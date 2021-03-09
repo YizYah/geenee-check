@@ -1,6 +1,6 @@
 {
   "name": "geenee-check",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "makes sure that a project&#x27;s updates were done safely for regeneration using geenee",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
