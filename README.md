@@ -9,7 +9,7 @@
 
 [//]: # ( ns__custom_start description )
 
-![geenee-check](src/custom/images/geenee-check.jpg)
+![geenee-check](src/custom/images/geenee-check.png)
 ======
 makes sure that a project&#x27;s updates were done safely for regeneration using geenee
 
